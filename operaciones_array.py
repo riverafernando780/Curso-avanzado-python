@@ -13,4 +13,6 @@ def creaMatriz():
     return matriz
 
 a=creaMatriz()
-print(a)
+b=creaMatriz()
+print("Las matrices ingresadas son:\nMatriz A:\n",a,"\nMatriz B:",b,"\nA continuación se imprimen las operaciones básicas",
+      "\nA+B=\n",a+b)
