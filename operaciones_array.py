@@ -16,3 +16,4 @@ a=creaMatriz()
 b=creaMatriz()
 print("Las matrices ingresadas son:\nMatriz A:\n",a,"\nMatriz B:",b,"\nA continuación se imprimen las operaciones básicas",
       "\nA+B=\n",a+b)
+print("El producto es:\n",np.dot(a,b))
