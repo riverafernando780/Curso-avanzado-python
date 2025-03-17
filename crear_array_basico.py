@@ -1,5 +1,5 @@
 import numpy as np
-a=np.empty((4,8))#Lo anterior crea un arreglo de tamaño 4x8 una matriz 8x4, notar que el parametro "(c,f)", es todo un size completo
+a=np.empty((4,8))#Lo anterior crea un arreglo de tamaño 4x8 una matriz 4x8, notar que el parametro "(f,c)", es todo un size completo
 print(a)
 a=np.zeros((4,8))#Lo mismo pero todos los elementos de la matriz son cero
 print("Generando arreglo con zeros\n",
